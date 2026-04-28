@@ -1,10 +1,10 @@
 #main
 
 def saudacao(nome, mensagem = "Seja bem vindo(a)!"):
-    print(f"Olá {nome}, {mensagem}")
+    print(f"\nOlá {nome}, {mensagem}")
 
 def cadastro_user(nome, idade: int, admin=False):
-    print(f"Nome: {nome}    |     Idade: {idade}     |   Administrador: {admin}")
+    print(f"\nNome: {nome}    |     Idade: {idade}     |   Administrador: {admin}")
 
 saudacao("Cauan")
 
